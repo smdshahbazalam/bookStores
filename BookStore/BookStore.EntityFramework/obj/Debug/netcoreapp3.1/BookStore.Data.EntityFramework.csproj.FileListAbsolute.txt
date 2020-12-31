@@ -1,0 +1,9 @@
+C:\Users\Ei08246\source\repos\BookStore\BookStore.EntityFramework\obj\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.AssemblyInfoInputs.cache
+C:\Users\Ei08246\source\repos\BookStore\BookStore.EntityFramework\obj\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.AssemblyInfo.cs
+C:\Users\Ei08246\source\repos\BookStore\BookStore.EntityFramework\obj\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\Ei08246\source\repos\BookStore\BookStore.EntityFramework\bin\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.deps.json
+C:\Users\Ei08246\source\repos\BookStore\BookStore.EntityFramework\bin\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.dll
+C:\Users\Ei08246\source\repos\BookStore\BookStore.EntityFramework\bin\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.pdb
+C:\Users\Ei08246\source\repos\BookStore\BookStore.EntityFramework\obj\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.dll
+C:\Users\Ei08246\source\repos\BookStore\BookStore.EntityFramework\obj\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.pdb
+C:\Users\Ei08246\source\repos\BookStore\BookStore.EntityFramework\obj\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.csprojAssemblyReference.cache

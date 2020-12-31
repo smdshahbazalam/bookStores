@@ -1,0 +1,47 @@
+<div class="container pt-3 pb-1">
+    <div class="row">
+      <div class="col">
+        <form [formGroup]="noteForm" (ngSubmit)="onSubmit()">
+          <div class="form-group d-flex ">
+            <textarea [placeholder]="'Add more notes...'" class="form-control" id="txtClaimNotes" rows="2"
+              formControlName="note" required></textarea>
+            <button class="btn btn-primary ml-2" type="submit" [disabled]="!noteForm.valid">Save</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="px-4">
+    <table class="table table-sm table-borderless table-hover">
+      <thead>
+        <tr>
+          <th scope="col" class="border-bottom" style="width: 200px">Date</th>
+          <th scope="col" class="border-bottom" style="width: 200px">User</th>
+          <th scope="col" class="border-bottom" style="width: 200px">Type</th>
+          <th scope="col" class="border-bottom">Activity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of activityFeed; trackBy: trackByFn">
+          <td *ngIf="item.date">{{item.date | date}}</td>
+          <td *ngIf="item.dateTime">{{item.dateTime | date:'medium'}}</td>
+          <td>{{item.userName}}</td>
+          <td>{{item.activityTypeName}}</td>
+          <td>
+            <ng-container>
+              <ng-container *ngIf="item.activityTypeCode === 'PROVIDER-HISTORY'" [ngSwitch]="item.statusCode">
+                <span *ngSwitchCase="'ACKNOWLEDGED'" class="badge badge-success mr-1">{{item.statusName}}</span>
+                <span *ngSwitchDefault class="badge badge-dark mr-1">{{item.statusName}}</span>
+              </ng-container>
+              <ng-container *ngIf="item.activityTypeCode === 'CLAIM-DISPOSITION-HISTORY'" [ngSwitch]="item.statusCode">
+                <span *ngSwitchCase="'AGREE'" class="badge badge-success mr-1">{{item.statusName}}</span>
+                <span *ngSwitchCase="'DISAGREE'" class="badge badge-danger mr-1">{{item.statusName}}</span>
+                <span *ngSwitchCase="'REQUESTEXT'" class="badge badge-warning mr-1">{{item.statusName}}</span>
+                <span *ngSwitchDefault class="badge badge-dark mr-1">{{item.statusName}}</span>
+              </ng-container>
+            </ng-container> <span style="white-space: pre-line">{{item.description}}</span><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
