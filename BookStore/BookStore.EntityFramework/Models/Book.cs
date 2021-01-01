@@ -9,6 +9,6 @@ namespace BookStore.Data.EntityFramework.Models
         public int BookId { get; set; }
         public string Name { get; set; }
         public string Author { get; set; }
-        public DateTime PublishYear { get; set; }
+        public string PublishYear { get; set; }
     }
 }

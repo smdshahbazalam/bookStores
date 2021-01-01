@@ -1,8 +1,5 @@
 ﻿using BookStore.Data.EntityFramework.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BookStore.Data.EntityFramework
 {
@@ -17,6 +14,8 @@ namespace BookStore.Data.EntityFramework
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
+
+            builder.ApplyConfiguration(new BookConfiguration());
         }
 
     }

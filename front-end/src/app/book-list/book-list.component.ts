@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
 import { Book } from '../models';
 
 import { BookStoreService } from '../services/book.serviice';
@@ -10,13 +11,36 @@ import { BookStoreService } from '../services/book.serviice';
 })
 export class BookListComponent implements OnInit {
 
-  bookList: Book[] = [];
-  constructor(private bookStoreService: BookStoreService ) { }
+  searchform: FormGroup = new FormGroup({
+    search: new FormControl(''),
+  });
 
-  ngOnInit(): void {
+  bookList: Book[] = [];
+
+  onSearch(){
+    this.bookStoreService.searchBook(this.searchform.value.search).subscribe(_ => {
+      this.bookList = _;
+    });;
+  }
+
+  clearSearch(){
+    this.loadBookResult();
+  }
+
+  loadBookResult(){
     this.bookStoreService.getBookList().subscribe(_ => {
       this.bookList = _;
     });
+  }
+
+  trackByFn(item: any) {
+    return item.activityFeedRecordId;
+  }
+
+  constructor(private bookStoreService: BookStoreService ) { }
+
+  ngOnInit(): void {
+   this.loadBookResult();
   }
 
 }

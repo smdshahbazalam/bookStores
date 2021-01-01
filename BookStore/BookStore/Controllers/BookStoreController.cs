@@ -16,5 +16,11 @@ namespace BookStore.Controllers
         {
             return Ok(await handler.FetchAsync());
         }
+
+        [HttpGet("search/{searchkey}")]
+        public async Task<IActionResult> SearchBooks(string searchKey, [FromServices] SearchBookQueryHandler handler)
+        {
+            return Ok(await handler.FetchAsync(searchKey));
+        }
     }
 }
