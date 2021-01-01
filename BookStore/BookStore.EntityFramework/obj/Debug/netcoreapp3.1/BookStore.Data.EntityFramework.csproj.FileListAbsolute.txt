@@ -10,3 +10,15 @@ C:\Users\Ei08246\source\repos\BookStore\BookStore.EntityFramework\bin\Debug\netc
 C:\Users\Ei08246\source\repos\BookStore\BookStore.EntityFramework\bin\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.runtimeconfig.dev.json
 C:\Users\Ei08246\source\repos\BookStore\BookStore.EntityFramework\obj\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.genruntimeconfig.cache
 C:\Users\Ei08246\source\repos\BookStore\BookStore.EntityFramework\obj\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.csproj.CoreCompileInputs.cache
+C:\D\BookStore\BookStore\BookStore.EntityFramework\bin\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.deps.json
+C:\D\BookStore\BookStore\BookStore.EntityFramework\bin\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.runtimeconfig.json
+C:\D\BookStore\BookStore\BookStore.EntityFramework\bin\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.runtimeconfig.dev.json
+C:\D\BookStore\BookStore\BookStore.EntityFramework\bin\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.dll
+C:\D\BookStore\BookStore\BookStore.EntityFramework\bin\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.pdb
+C:\D\BookStore\BookStore\BookStore.EntityFramework\obj\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.csprojAssemblyReference.cache
+C:\D\BookStore\BookStore\BookStore.EntityFramework\obj\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.AssemblyInfoInputs.cache
+C:\D\BookStore\BookStore\BookStore.EntityFramework\obj\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.AssemblyInfo.cs
+C:\D\BookStore\BookStore\BookStore.EntityFramework\obj\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.csproj.CoreCompileInputs.cache
+C:\D\BookStore\BookStore\BookStore.EntityFramework\obj\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.dll
+C:\D\BookStore\BookStore\BookStore.EntityFramework\obj\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.pdb
+C:\D\BookStore\BookStore\BookStore.EntityFramework\obj\Debug\netcoreapp3.1\BookStore.Data.EntityFramework.genruntimeconfig.cache

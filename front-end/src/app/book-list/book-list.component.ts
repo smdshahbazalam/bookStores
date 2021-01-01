@@ -15,6 +15,7 @@ export class BookListComponent implements OnInit {
     search: new FormControl(''),
   });
 
+
   bookList: Book[] = [];
 
   onSearch(){
@@ -24,6 +25,7 @@ export class BookListComponent implements OnInit {
   }
 
   clearSearch(){
+    this.searchform.reset();
     this.loadBookResult();
   }
 

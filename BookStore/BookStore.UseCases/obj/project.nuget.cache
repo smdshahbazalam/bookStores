@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wiH/Y4jqsR2XsQ/2Gd8CRcvD+G0ejMVy545/heUVvEyY/LSDCU+KaMuRQm1I3ZbSGqR2ZoY/CzuCFtqceamKhA==",
+  "dgSpecHash": "HP4sBIJqlqY7WxQGKNpN8XjJlnx2MdbXemYDAvyAvJngBxPnDpCFgDPWRu5Um1dHVGtkTnmeLWpf+9K10j/Qgw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ei08246\\source\\repos\\BookStore\\BookStore.UseCases\\BookStore.UseCases.csproj",
+  "projectFilePath": "C:\\D\\BookStore\\BookStore\\BookStore.UseCases\\BookStore.UseCases.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ei08246\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Ei08246\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

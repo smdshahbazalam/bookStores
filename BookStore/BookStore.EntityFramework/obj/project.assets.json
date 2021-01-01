@@ -6045,11 +6045,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ei08246\\source\\repos\\BookStore\\BookStore.EntityFramework\\BookStore.Data.EntityFramework.csproj",
+      "projectUniqueName": "C:\\D\\BookStore\\BookStore\\BookStore.EntityFramework\\BookStore.Data.EntityFramework.csproj",
       "projectName": "BookStore.Data.EntityFramework",
-      "projectPath": "C:\\Users\\Ei08246\\source\\repos\\BookStore\\BookStore.EntityFramework\\BookStore.Data.EntityFramework.csproj",
+      "projectPath": "C:\\D\\BookStore\\BookStore\\BookStore.EntityFramework\\BookStore.Data.EntityFramework.csproj",
       "packagesPath": "C:\\Users\\Ei08246\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ei08246\\source\\repos\\BookStore\\BookStore.EntityFramework\\obj\\",
+      "outputPath": "C:\\D\\BookStore\\BookStore\\BookStore.EntityFramework\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

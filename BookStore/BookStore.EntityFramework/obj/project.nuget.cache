@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IzG4uMacfreoZyw6lD55aPE9GISoiA577u7qOKz5FlqAynkrxCGXaWMDdwB2S1O4V7gWjAdgMW++7b/zdEKPMQ==",
+  "dgSpecHash": "Xcqi+3EYpOu0Us3DWiEwAuMMni1bHCLA+kYp+OFw+bJU779ZoxmEaCPQESNezTVBVQ/17UVy/0HOhSwBjyXrzA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ei08246\\source\\repos\\BookStore\\BookStore.EntityFramework\\BookStore.Data.EntityFramework.csproj",
+  "projectFilePath": "C:\\D\\BookStore\\BookStore\\BookStore.EntityFramework\\BookStore.Data.EntityFramework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ei08246\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Ei08246\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

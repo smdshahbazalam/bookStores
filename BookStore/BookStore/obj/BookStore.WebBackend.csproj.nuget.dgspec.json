@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ei08246\\source\\repos\\BookStore\\BookStore\\BookStore.WebBackend.csproj": {}
+    "C:\\D\\BookStore\\BookStore\\BookStore\\BookStore.WebBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ei08246\\source\\repos\\BookStore\\BookStore.EntityFramework\\BookStore.Data.EntityFramework.csproj": {
+    "C:\\D\\BookStore\\BookStore\\BookStore.EntityFramework\\BookStore.Data.EntityFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ei08246\\source\\repos\\BookStore\\BookStore.EntityFramework\\BookStore.Data.EntityFramework.csproj",
+        "projectUniqueName": "C:\\D\\BookStore\\BookStore\\BookStore.EntityFramework\\BookStore.Data.EntityFramework.csproj",
         "projectName": "BookStore.Data.EntityFramework",
-        "projectPath": "C:\\Users\\Ei08246\\source\\repos\\BookStore\\BookStore.EntityFramework\\BookStore.Data.EntityFramework.csproj",
+        "projectPath": "C:\\D\\BookStore\\BookStore\\BookStore.EntityFramework\\BookStore.Data.EntityFramework.csproj",
         "packagesPath": "C:\\Users\\Ei08246\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ei08246\\source\\repos\\BookStore\\BookStore.EntityFramework\\obj\\",
+        "outputPath": "C:\\D\\BookStore\\BookStore\\BookStore.EntityFramework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -83,14 +83,14 @@
         }
       }
     },
-    "C:\\Users\\Ei08246\\source\\repos\\BookStore\\BookStore.UseCases\\BookStore.UseCases.csproj": {
+    "C:\\D\\BookStore\\BookStore\\BookStore.UseCases\\BookStore.UseCases.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ei08246\\source\\repos\\BookStore\\BookStore.UseCases\\BookStore.UseCases.csproj",
+        "projectUniqueName": "C:\\D\\BookStore\\BookStore\\BookStore.UseCases\\BookStore.UseCases.csproj",
         "projectName": "BookStore.UseCases",
-        "projectPath": "C:\\Users\\Ei08246\\source\\repos\\BookStore\\BookStore.UseCases\\BookStore.UseCases.csproj",
+        "projectPath": "C:\\D\\BookStore\\BookStore\\BookStore.UseCases\\BookStore.UseCases.csproj",
         "packagesPath": "C:\\Users\\Ei08246\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ei08246\\source\\repos\\BookStore\\BookStore.UseCases\\obj\\",
+        "outputPath": "C:\\D\\BookStore\\BookStore\\BookStore.UseCases\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -109,8 +109,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Ei08246\\source\\repos\\BookStore\\BookStore.EntityFramework\\BookStore.Data.EntityFramework.csproj": {
-                "projectPath": "C:\\Users\\Ei08246\\source\\repos\\BookStore\\BookStore.EntityFramework\\BookStore.Data.EntityFramework.csproj"
+              "C:\\D\\BookStore\\BookStore\\BookStore.EntityFramework\\BookStore.Data.EntityFramework.csproj": {
+                "projectPath": "C:\\D\\BookStore\\BookStore\\BookStore.EntityFramework\\BookStore.Data.EntityFramework.csproj"
               }
             }
           }
@@ -142,14 +142,14 @@
         }
       }
     },
-    "C:\\Users\\Ei08246\\source\\repos\\BookStore\\BookStore\\BookStore.WebBackend.csproj": {
+    "C:\\D\\BookStore\\BookStore\\BookStore\\BookStore.WebBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ei08246\\source\\repos\\BookStore\\BookStore\\BookStore.WebBackend.csproj",
+        "projectUniqueName": "C:\\D\\BookStore\\BookStore\\BookStore\\BookStore.WebBackend.csproj",
         "projectName": "BookStore.WebBackend",
-        "projectPath": "C:\\Users\\Ei08246\\source\\repos\\BookStore\\BookStore\\BookStore.WebBackend.csproj",
+        "projectPath": "C:\\D\\BookStore\\BookStore\\BookStore\\BookStore.WebBackend.csproj",
         "packagesPath": "C:\\Users\\Ei08246\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ei08246\\source\\repos\\BookStore\\BookStore\\obj\\",
+        "outputPath": "C:\\D\\BookStore\\BookStore\\BookStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -168,8 +168,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Ei08246\\source\\repos\\BookStore\\BookStore.UseCases\\BookStore.UseCases.csproj": {
-                "projectPath": "C:\\Users\\Ei08246\\source\\repos\\BookStore\\BookStore.UseCases\\BookStore.UseCases.csproj"
+              "C:\\D\\BookStore\\BookStore\\BookStore.UseCases\\BookStore.UseCases.csproj": {
+                "projectPath": "C:\\D\\BookStore\\BookStore\\BookStore.UseCases\\BookStore.UseCases.csproj"
               }
             }
           }
